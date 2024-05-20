@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-21T12:34:34Z" name="Default suite" finished-at="2024-03-21T12:34:48Z" duration-ms="13455">
+    <groups>
+    </groups>
+    <test started-at="2024-03-21T12:34:34Z" name="Default test" finished-at="2024-03-21T12:34:48Z" duration-ms="13455">
+      <class name="xola.Login">
+        <test-method signature="test()[pri:0, instance:xola.Login@71e9ebae]" started-at="2024-03-21T18:04:34Z" name="test" finished-at="2024-03-21T18:04:46Z" duration-ms="11703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="loginFunctionality()[pri:0, instance:xola.Login@71e9ebae]" started-at="2024-03-21T18:04:46Z" name="loginFunctionality" finished-at="2024-03-21T18:04:48Z" depends-on-methods="xola.Login.test" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:xola.Login@71e9ebae]" started-at="2024-03-21T18:04:48Z" name="afterTest" finished-at="2024-03-21T18:04:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- xola.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
