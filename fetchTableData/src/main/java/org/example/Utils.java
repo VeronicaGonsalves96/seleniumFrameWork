@@ -19,7 +19,7 @@ public class Utils {
         Properties props=new Properties();
         props.load(inputStream);
 
-        props.getProperty(key);
+        key=props.getProperty(key);
         return key;
     }
 }
